@@ -1,0 +1,40 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#playerCards {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+img{
+  max-width: 60%;
+}
+ #buttons {
+   display: flex;
+ }
+
+/* HIDDEN THINGS */
+
+#card3, #apostar, #repartir, #resultado, #carta1, #carta2 , #carta3{
+  display: none;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
