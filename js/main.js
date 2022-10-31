@@ -28,7 +28,9 @@ function draw2Cards() {
     readyForPrize()
 
     document.querySelector("#resultado").style.display = "none"
-    document.querySelector("#playerCard3").src = "/cards-template/img/cards.jpg"
+    document.querySelector("#playerCard3").src = "img/cards.jpg"
+    document.querySelector("#nameCard3").innerText = ""
+
 
   })
   .catch(err => `Error ${err}`)

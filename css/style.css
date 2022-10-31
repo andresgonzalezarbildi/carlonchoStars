@@ -23,7 +23,7 @@ body {
   justify-content: space-around;
 }
 img{
-  max-width: 60%;
+  max-width: 10vw;
 }
  #buttons {
    display: flex;
